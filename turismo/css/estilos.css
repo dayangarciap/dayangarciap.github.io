@@ -33,9 +33,9 @@ h1 {
 
 nav ul {
     position: absolute;
-    width: 50%;
+    width: 100%;
     z-index: 200;
-    margin-left: 25%;
+    margin-left: 0%;
     margin-right: 25%;
     list-style: none;
     padding: 0;
@@ -61,6 +61,7 @@ a:hover {
     padding: 20px;
     text-align: center;
     margin: 20px;
+	align-items: center;
 }
 
 #about h2 {
@@ -228,17 +229,32 @@ margin-right: 20px;
 
 
 .paris {
-
-    background-image: url(../imagenes/nube.jpg)
-    
-     
+    background-color: rgb(240, 136, 197);
+	border-radius: 20px;
+	margin: 20px;
+}
+.mexico {
+	background-color: #245f31;
+	border-radius: 20px;
+	margin: 20px;
+}
+.australia {
+	background-color: brown;
+	border-radius: 20px;
+	margin: 20px;
+}
+.islandia {
+	background-color: rgb(48, 48, 87);
+	border-radius: 20px;
 }
 
 .contenedor {
-    height: 90vh;
+    height: 92vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+	margin: 20px;
+	border-radius: 20px;
 }
 
 .izquierda {
@@ -264,10 +280,12 @@ margin-right: 20px;
     font-size: 100PX;
     padding-top: 0px;
     margin: 10px;
-
+	color: white;
 }
 .descripcion {
     font-size: 20px;
+	text-align: justify;
+	margin-left: 30px;
 
 }
 

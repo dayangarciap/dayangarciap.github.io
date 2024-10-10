@@ -1,0 +1,36 @@
+p {
+    color:green; margin-left:200px; text-align: center; 
+}
+.clase1 {
+    color: rgb(255, 136, 0);
+}
+#textpeque {
+    text-decoration-line: overline;
+}
+.contenedor {
+   display: flex;
+   justify-content: center;
+}
+.titulo1{
+    text-align: center;
+}
+.caja {
+    color: white;
+    width: 400px;
+    height: auto;
+    background-color: rgb(125, 125, 221);
+    border: 5px solid rgb(125, 125, 221); 
+    padding: 20px;
+    margin: 20px;
+}
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+@media(max-width: 600px) { /*@media: regla para aplicar estilos según las caracteristicas de la pantalla*/
+    .grid-container { /*max-width: aplica estilos si el ancho de la pantalla es menor */
+        flex-direction: column;
+    }
+}
